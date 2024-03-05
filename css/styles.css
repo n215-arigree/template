@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  background-color: blue;
+  min-height: 100%;
+  display: flex;
+}
+
+.wrapper {
+  flex: 1;
+  max-width: 900px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: aquamarine;
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

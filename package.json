@@ -1,0 +1,16 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass scss/styles.scss css/styles.css -w",
+    "serve": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "description": ""
+}
