@@ -3,7 +3,7 @@
 .Trashes
 
 # node_modules
-# /node_modules
+/node_modules
 
 # vs code
 .vscode
@@ -12,5 +12,5 @@
 # project
 /css/styles.css.map
 .prepros
-# package-lock.json
-# package.json
+package-lock.json
+package.json
