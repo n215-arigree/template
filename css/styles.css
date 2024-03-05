@@ -15,16 +15,12 @@ h1, h2, h3, h4, h5, h6, p {
 #app {
   background-color: blue;
   min-height: 100%;
-  display: flex;
 }
 
 .wrapper {
-  flex: 1;
   max-width: 900px;
   background-color: antiquewhite;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 
 nav {
@@ -39,6 +35,30 @@ nav {
 nav a {
   text-decoration: none;
   color: #fff;
+}
+
+.home {
+  min-height: 400px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home .box {
+  width: 250px;
+  height: 350px;
+  background-color: aqua;
+}
+.home .tourOne {
+  background-image: url("../images/pexels-eberhard-grossgasteiger-1287075.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .tourTwo {
+  background-image: url("../images/pexels-eberhard-grossgasteiger-1367192.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 footer {

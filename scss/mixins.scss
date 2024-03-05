@@ -1,0 +1,12 @@
+@mixin tour-box() {
+  width: 250px;
+  height: 350px;
+  background-color: aqua;
+}
+
+@mixin add-background-img($imageurl: "") {
+  background-image: url($imageurl);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

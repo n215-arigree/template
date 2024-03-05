@@ -12,16 +12,16 @@ h1, h2, h3, h4, h5, h6, p {
 #app {
     background-color: blue;
     min-height: 100%;
-    display: flex;
+    // display: flex;
 }
 
 .wrapper {
-    flex: 1;
+    // flex: 1;
     max-width: $site-width;
     // max-height: 100%;
     background-color: antiquewhite;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     // justify-content: space-between;
 }

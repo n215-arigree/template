@@ -1,0 +1,15 @@
+.home {
+    min-height: 400px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    .box {
+        @include tour-box();
+    }
+    .tourOne {
+        @include add-background-img("../images/pexels-eberhard-grossgasteiger-1287075.jpg");
+    }
+    .tourTwo {
+        @include add-background-img("../images/pexels-eberhard-grossgasteiger-1367192.jpg");
+    }
+}
